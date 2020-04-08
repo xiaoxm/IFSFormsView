@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D1BDB0B94DD9232BC3282B3172E962 /* IFSFormsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F78E8605AF4D4F68AADCD1435CB90570 /* IFSFormsView.m */; };
+		10017E9B6996E9AE2EF5FC8B40D11234 /* Pods-IFSFormsView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F3CE0E5A2CC182831622063942DEF1 /* Pods-IFSFormsView_Tests-dummy.m */; };
+		1958D8E52048F18C330E088217CCD644 /* IFSFormsViewItemData.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FF975B3A32C58F9010BE86F6F5DDA6 /* IFSFormsViewItemData.m */; };
+		1FF17481C80A5E35A3F7C0DFF531213E /* IFSFormsViewGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C71EC01F9F1A59A2F70EAC653926C9 /* IFSFormsViewGroup.m */; };
+		4E16CC8D41EF1CC8FCDDE8E09BC64BD4 /* IFSFormsViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDCE5923A1E9E8F29B87450DF887CD /* IFSFormsViewItem.m */; };
+		4F0A8C88DE8C61B6BDE4333445CA0C3B /* IFSFormsViewGroupData.h in Headers */ = {isa = PBXBuildFile; fileRef = AA28568682B6DE33A8DC53C12D1881CC /* IFSFormsViewGroupData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5162CEE4BEFEADF98C047E608A84A182 /* IFSFormsViewData.h in Headers */ = {isa = PBXBuildFile; fileRef = 48C78CDAF6DECB85E29F9C162FD045BB /* IFSFormsViewData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		651F2732A6E5B258AC2AE8BC1DD0F2C8 /* IFSFormsViewData+IFSChaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AC06EB9395A1D457503ABF046CFC5C /* IFSFormsViewData+IFSChaining.m */; };
+		779DF916352129581B39C72E0D8770E0 /* IFSFormsViewItemData.h in Headers */ = {isa = PBXBuildFile; fileRef = 41DE58FC14D8955F527F62CBF882CDFA /* IFSFormsViewItemData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C6E849B54B798E8D0647033EBE4A552 /* IFSFormsViewData+IFSChaining.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F90E6E549B357A1BFAD7F571A935B5C /* IFSFormsViewData+IFSChaining.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		802272EFC449B55E0F42048459F0D9ED /* IFSFormsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A33A5A136BE3F087B51E70F8FE543B9 /* IFSFormsView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		99A80117E41C7A7BDA2BA42D21492C76 /* IFSFormsViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 068D91E8D8FEE0C2E37656C6013F39B1 /* IFSFormsViewItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C266747984D5264DEF51AEEC93109FA /* IFSFormsViewGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF1EC520BAD7C129652B119DC29055A /* IFSFormsViewGroup.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B2A8247872EC9A96A5A1F8C6DFDA3DB9 /* IFSFormsViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F34757A668383B46863C93BD0745B6 /* IFSFormsViewData.m */; };
+		B3ABAB4A6F7156C91C6445F400D3B9B7 /* IFSFormsView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B03D9171873CBA61B28C79459EE45779 /* IFSFormsView-dummy.m */; };
+		B69E2E385740A92D1FD1BF2C5AE73681 /* Pods-IFSFormsView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A355C9C75BFA00E833D376FFDDD9336 /* Pods-IFSFormsView_Example-dummy.m */; };
+		EDCFF80D5A4AEEFC14C7DCACAACE89B9 /* IFSFormsViewGroupData.m in Sources */ = {isa = PBXBuildFile; fileRef = DB25A1E18967A648C2F6586DAB625C4B /* IFSFormsViewGroupData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27A5234F852B43FB2E5F52C544032BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1FEB005CDBAEC7E241360685E34A8F;
+			remoteInfo = "Pods-IFSFormsView_Example";
+		};
+		C4FA858DDAFD4A4EB226F725F0DA088E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC2AD94F3D1FC8BD4EBC3F9CD83374B;
+			remoteInfo = IFSFormsView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05E001A56B3C553225AB339025A0EFF0 /* Pods-IFSFormsView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFSFormsView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		068D91E8D8FEE0C2E37656C6013F39B1 /* IFSFormsViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFSFormsViewItem.h; path = IFSFormsView/Classes/IFSFormsViewItem.h; sourceTree = "<group>"; };
+		11FF975B3A32C58F9010BE86F6F5DDA6 /* IFSFormsViewItemData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFSFormsViewItemData.m; path = IFSFormsView/Classes/IFSFormsViewItemData.m; sourceTree = "<group>"; };
+		18A0C5116C1E8FF79CB66EBF30DB9812 /* Pods-IFSFormsView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFSFormsView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		23F3CE0E5A2CC182831622063942DEF1 /* Pods-IFSFormsView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IFSFormsView_Tests-dummy.m"; sourceTree = "<group>"; };
+		249DFBFB7C5CA6131EB040D0B6D7315B /* Pods-IFSFormsView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFSFormsView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		26F34757A668383B46863C93BD0745B6 /* IFSFormsViewData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFSFormsViewData.m; path = IFSFormsView/Classes/IFSFormsViewData.m; sourceTree = "<group>"; };
+		2CCDCE5923A1E9E8F29B87450DF887CD /* IFSFormsViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFSFormsViewItem.m; path = IFSFormsView/Classes/IFSFormsViewItem.m; sourceTree = "<group>"; };
+		41DE58FC14D8955F527F62CBF882CDFA /* IFSFormsViewItemData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFSFormsViewItemData.h; path = IFSFormsView/Classes/IFSFormsViewItemData.h; sourceTree = "<group>"; };
+		48C78CDAF6DECB85E29F9C162FD045BB /* IFSFormsViewData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFSFormsViewData.h; path = IFSFormsView/Classes/IFSFormsViewData.h; sourceTree = "<group>"; };
+		4F90E6E549B357A1BFAD7F571A935B5C /* IFSFormsViewData+IFSChaining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IFSFormsViewData+IFSChaining.h"; path = "IFSFormsView/Classes/IFSFormsViewData+IFSChaining.h"; sourceTree = "<group>"; };
+		54C71EC01F9F1A59A2F70EAC653926C9 /* IFSFormsViewGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFSFormsViewGroup.m; path = IFSFormsView/Classes/IFSFormsViewGroup.m; sourceTree = "<group>"; };
+		585702B91B932FFCB7A0FA7615EE6200 /* Pods-IFSFormsView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IFSFormsView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A355C9C75BFA00E833D376FFDDD9336 /* Pods-IFSFormsView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IFSFormsView_Example-dummy.m"; sourceTree = "<group>"; };
+		680D2D0D99E484894DA453F5471AB081 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		80F47FF4613BAD20307EE0EC56E7192F /* Pods-IFSFormsView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFSFormsView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		83AC06EB9395A1D457503ABF046CFC5C /* IFSFormsViewData+IFSChaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IFSFormsViewData+IFSChaining.m"; path = "IFSFormsView/Classes/IFSFormsViewData+IFSChaining.m"; sourceTree = "<group>"; };
+		861D26099416AC4B3AB95EA66F5349AC /* Pods-IFSFormsView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFSFormsView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		863B5C9ACE828CCA01A36075FB316845 /* libPods-IFSFormsView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-IFSFormsView_Example.a"; path = "libPods-IFSFormsView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A33A5A136BE3F087B51E70F8FE543B9 /* IFSFormsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFSFormsView.h; path = IFSFormsView/Classes/IFSFormsView.h; sourceTree = "<group>"; };
+		8E83980AEBEEA7E1A2157DF4B76BF740 /* IFSFormsView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFSFormsView-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE64749A7356E111C79F21940B8BB87 /* libIFSFormsView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libIFSFormsView.a; path = libIFSFormsView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA28568682B6DE33A8DC53C12D1881CC /* IFSFormsViewGroupData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFSFormsViewGroupData.h; path = IFSFormsView/Classes/IFSFormsViewGroupData.h; sourceTree = "<group>"; };
+		ACF1EC520BAD7C129652B119DC29055A /* IFSFormsViewGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFSFormsViewGroup.h; path = IFSFormsView/Classes/IFSFormsViewGroup.h; sourceTree = "<group>"; };
+		B03D9171873CBA61B28C79459EE45779 /* IFSFormsView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IFSFormsView-dummy.m"; sourceTree = "<group>"; };
+		B0F69ED178894E3BF6FE4821BB592E65 /* IFSFormsView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IFSFormsView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B7230291267330E5A74323E1527BE5A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BC2C5C48824589CB3856FD8590C847C9 /* Pods-IFSFormsView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFSFormsView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA1FD883B62185AEAD6B41C34872EC36 /* Pods-IFSFormsView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IFSFormsView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB25A1E18967A648C2F6586DAB625C4B /* IFSFormsViewGroupData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFSFormsViewGroupData.m; path = IFSFormsView/Classes/IFSFormsViewGroupData.m; sourceTree = "<group>"; };
+		E6E0C09CA695490219A71FF834861B19 /* libPods-IFSFormsView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-IFSFormsView_Tests.a"; path = "libPods-IFSFormsView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78E8605AF4D4F68AADCD1435CB90570 /* IFSFormsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFSFormsView.m; path = IFSFormsView/Classes/IFSFormsView.m; sourceTree = "<group>"; };
+		FCA93044D7664467393D787C83102103 /* IFSFormsView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFSFormsView.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E847B68002AF19B1AB0F04D5FAFC81F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936AF8EB673A04A9DE57454496A7E30B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49D5D646AF553A5ABB9B3E334C59C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D759424A5C8A53EBDC73E88ECFDC27 /* IFSFormsView */ = {
+			isa = PBXGroup;
+			children = (
+				8A33A5A136BE3F087B51E70F8FE543B9 /* IFSFormsView.h */,
+				F78E8605AF4D4F68AADCD1435CB90570 /* IFSFormsView.m */,
+				48C78CDAF6DECB85E29F9C162FD045BB /* IFSFormsViewData.h */,
+				26F34757A668383B46863C93BD0745B6 /* IFSFormsViewData.m */,
+				4F90E6E549B357A1BFAD7F571A935B5C /* IFSFormsViewData+IFSChaining.h */,
+				83AC06EB9395A1D457503ABF046CFC5C /* IFSFormsViewData+IFSChaining.m */,
+				ACF1EC520BAD7C129652B119DC29055A /* IFSFormsViewGroup.h */,
+				54C71EC01F9F1A59A2F70EAC653926C9 /* IFSFormsViewGroup.m */,
+				AA28568682B6DE33A8DC53C12D1881CC /* IFSFormsViewGroupData.h */,
+				DB25A1E18967A648C2F6586DAB625C4B /* IFSFormsViewGroupData.m */,
+				068D91E8D8FEE0C2E37656C6013F39B1 /* IFSFormsViewItem.h */,
+				2CCDCE5923A1E9E8F29B87450DF887CD /* IFSFormsViewItem.m */,
+				41DE58FC14D8955F527F62CBF882CDFA /* IFSFormsViewItemData.h */,
+				11FF975B3A32C58F9010BE86F6F5DDA6 /* IFSFormsViewItemData.m */,
+				9EE93121C11C114DF717B08C8A5BB488 /* Pod */,
+				16871A370DF9D2844C5C1243D10E346C /* Support Files */,
+			);
+			name = IFSFormsView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		13277795590BA50EE930D7850AF51ADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FE64749A7356E111C79F21940B8BB87 /* libIFSFormsView.a */,
+				863B5C9ACE828CCA01A36075FB316845 /* libPods-IFSFormsView_Example.a */,
+				E6E0C09CA695490219A71FF834861B19 /* libPods-IFSFormsView_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16871A370DF9D2844C5C1243D10E346C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCA93044D7664467393D787C83102103 /* IFSFormsView.xcconfig */,
+				B03D9171873CBA61B28C79459EE45779 /* IFSFormsView-dummy.m */,
+				8E83980AEBEEA7E1A2157DF4B76BF740 /* IFSFormsView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/IFSFormsView";
+			sourceTree = "<group>";
+		};
+		789B174726E9BAE2E3E4AF5B673AEFDB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05D759424A5C8A53EBDC73E88ECFDC27 /* IFSFormsView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7C297A9ECFAFEFA667095F4320CF5B73 /* Pods-IFSFormsView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CA1FD883B62185AEAD6B41C34872EC36 /* Pods-IFSFormsView_Example-acknowledgements.markdown */,
+				861D26099416AC4B3AB95EA66F5349AC /* Pods-IFSFormsView_Example-acknowledgements.plist */,
+				5A355C9C75BFA00E833D376FFDDD9336 /* Pods-IFSFormsView_Example-dummy.m */,
+				05E001A56B3C553225AB339025A0EFF0 /* Pods-IFSFormsView_Example.debug.xcconfig */,
+				18A0C5116C1E8FF79CB66EBF30DB9812 /* Pods-IFSFormsView_Example.release.xcconfig */,
+			);
+			name = "Pods-IFSFormsView_Example";
+			path = "Target Support Files/Pods-IFSFormsView_Example";
+			sourceTree = "<group>";
+		};
+		94708F57B9B62C32E2025BC96ED3C0B4 /* Pods-IFSFormsView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				585702B91B932FFCB7A0FA7615EE6200 /* Pods-IFSFormsView_Tests-acknowledgements.markdown */,
+				249DFBFB7C5CA6131EB040D0B6D7315B /* Pods-IFSFormsView_Tests-acknowledgements.plist */,
+				23F3CE0E5A2CC182831622063942DEF1 /* Pods-IFSFormsView_Tests-dummy.m */,
+				BC2C5C48824589CB3856FD8590C847C9 /* Pods-IFSFormsView_Tests.debug.xcconfig */,
+				80F47FF4613BAD20307EE0EC56E7192F /* Pods-IFSFormsView_Tests.release.xcconfig */,
+			);
+			name = "Pods-IFSFormsView_Tests";
+			path = "Target Support Files/Pods-IFSFormsView_Tests";
+			sourceTree = "<group>";
+		};
+		9EE93121C11C114DF717B08C8A5BB488 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B0F69ED178894E3BF6FE4821BB592E65 /* IFSFormsView.podspec */,
+				B7230291267330E5A74323E1527BE5A3 /* LICENSE */,
+				680D2D0D99E484894DA453F5471AB081 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				789B174726E9BAE2E3E4AF5B673AEFDB /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				13277795590BA50EE930D7850AF51ADD /* Products */,
+				E0AA9C16737E995349FDF2C31EE5E0DC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0AA9C16737E995349FDF2C31EE5E0DC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C297A9ECFAFEFA667095F4320CF5B73 /* Pods-IFSFormsView_Example */,
+				94708F57B9B62C32E2025BC96ED3C0B4 /* Pods-IFSFormsView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		265DE22F55D3DF4CDFB416651FC0FC40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B5759B51A10123A5BE71A886388334 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802272EFC449B55E0F42048459F0D9ED /* IFSFormsView.h in Headers */,
+				7C6E849B54B798E8D0647033EBE4A552 /* IFSFormsViewData+IFSChaining.h in Headers */,
+				5162CEE4BEFEADF98C047E608A84A182 /* IFSFormsViewData.h in Headers */,
+				9C266747984D5264DEF51AEEC93109FA /* IFSFormsViewGroup.h in Headers */,
+				4F0A8C88DE8C61B6BDE4333445CA0C3B /* IFSFormsViewGroupData.h in Headers */,
+				99A80117E41C7A7BDA2BA42D21492C76 /* IFSFormsViewItem.h in Headers */,
+				779DF916352129581B39C72E0D8770E0 /* IFSFormsViewItemData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49320A094471DA8570225D96FBB7A130 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D1FEB005CDBAEC7E241360685E34A8F /* Pods-IFSFormsView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2490199A8042CC38AFAC9EDFEE52574 /* Build configuration list for PBXNativeTarget "Pods-IFSFormsView_Example" */;
+			buildPhases = (
+				265DE22F55D3DF4CDFB416651FC0FC40 /* Headers */,
+				023C02916F923A50ED7F9E015AE2F722 /* Sources */,
+				D49D5D646AF553A5ABB9B3E334C59C43 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AABEEA33A987C0C4F0118AAFB88BFF8 /* PBXTargetDependency */,
+			);
+			name = "Pods-IFSFormsView_Example";
+			productName = "Pods-IFSFormsView_Example";
+			productReference = 863B5C9ACE828CCA01A36075FB316845 /* libPods-IFSFormsView_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ACC2AD94F3D1FC8BD4EBC3F9CD83374B /* IFSFormsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CD7D9FC0BE10D5A9BEF183C4208C363 /* Build configuration list for PBXNativeTarget "IFSFormsView" */;
+			buildPhases = (
+				43B5759B51A10123A5BE71A886388334 /* Headers */,
+				0C884CE765DBE9F07F5C6EF624306BFD /* Sources */,
+				8E847B68002AF19B1AB0F04D5FAFC81F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IFSFormsView;
+			productName = IFSFormsView;
+			productReference = 9FE64749A7356E111C79F21940B8BB87 /* libIFSFormsView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AD4A7B135EAC6C8B01B937734148B78B /* Pods-IFSFormsView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2E33D834D362CCDAFF82BFE7B390B05 /* Build configuration list for PBXNativeTarget "Pods-IFSFormsView_Tests" */;
+			buildPhases = (
+				49320A094471DA8570225D96FBB7A130 /* Headers */,
+				8B9636DC0C00885A65640D04BF6526C3 /* Sources */,
+				936AF8EB673A04A9DE57454496A7E30B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67AB56AF1A20B72678BE73F137AD5BDC /* PBXTargetDependency */,
+			);
+			name = "Pods-IFSFormsView_Tests";
+			productName = "Pods-IFSFormsView_Tests";
+			productReference = E6E0C09CA695490219A71FF834861B19 /* libPods-IFSFormsView_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 13277795590BA50EE930D7850AF51ADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC2AD94F3D1FC8BD4EBC3F9CD83374B /* IFSFormsView */,
+				8D1FEB005CDBAEC7E241360685E34A8F /* Pods-IFSFormsView_Example */,
+				AD4A7B135EAC6C8B01B937734148B78B /* Pods-IFSFormsView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		023C02916F923A50ED7F9E015AE2F722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69E2E385740A92D1FD1BF2C5AE73681 /* Pods-IFSFormsView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C884CE765DBE9F07F5C6EF624306BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3ABAB4A6F7156C91C6445F400D3B9B7 /* IFSFormsView-dummy.m in Sources */,
+				07D1BDB0B94DD9232BC3282B3172E962 /* IFSFormsView.m in Sources */,
+				651F2732A6E5B258AC2AE8BC1DD0F2C8 /* IFSFormsViewData+IFSChaining.m in Sources */,
+				B2A8247872EC9A96A5A1F8C6DFDA3DB9 /* IFSFormsViewData.m in Sources */,
+				1FF17481C80A5E35A3F7C0DFF531213E /* IFSFormsViewGroup.m in Sources */,
+				EDCFF80D5A4AEEFC14C7DCACAACE89B9 /* IFSFormsViewGroupData.m in Sources */,
+				4E16CC8D41EF1CC8FCDDE8E09BC64BD4 /* IFSFormsViewItem.m in Sources */,
+				1958D8E52048F18C330E088217CCD644 /* IFSFormsViewItemData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9636DC0C00885A65640D04BF6526C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10017E9B6996E9AE2EF5FC8B40D11234 /* Pods-IFSFormsView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67AB56AF1A20B72678BE73F137AD5BDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-IFSFormsView_Example";
+			target = 8D1FEB005CDBAEC7E241360685E34A8F /* Pods-IFSFormsView_Example */;
+			targetProxy = 27A5234F852B43FB2E5F52C544032BD8 /* PBXContainerItemProxy */;
+		};
+		9AABEEA33A987C0C4F0118AAFB88BFF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IFSFormsView;
+			target = ACC2AD94F3D1FC8BD4EBC3F9CD83374B /* IFSFormsView */;
+			targetProxy = C4FA858DDAFD4A4EB226F725F0DA088E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		99F7BEB4DCF1755133AF73A2F091FF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E001A56B3C553225AB339025A0EFF0 /* Pods-IFSFormsView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A61E4C37D99A17807516C8677F91C3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A0C5116C1E8FF79CB66EBF30DB9812 /* Pods-IFSFormsView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B27E26073A09845BE440DEB3F971E657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCA93044D7664467393D787C83102103 /* IFSFormsView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/IFSFormsView/IFSFormsView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = IFSFormsView;
+				PRODUCT_NAME = IFSFormsView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF4FA95058374D5ED822D64A079DA7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F47FF4613BAD20307EE0EC56E7192F /* Pods-IFSFormsView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF1C755B8EF6693114AD631061065ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCA93044D7664467393D787C83102103 /* IFSFormsView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/IFSFormsView/IFSFormsView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = IFSFormsView;
+				PRODUCT_NAME = IFSFormsView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D334FAA1636E0634C3BAF978F8910193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2C5C48824589CB3856FD8590C847C9 /* Pods-IFSFormsView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CD7D9FC0BE10D5A9BEF183C4208C363 /* Build configuration list for PBXNativeTarget "IFSFormsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27E26073A09845BE440DEB3F971E657 /* Debug */,
+				CCF1C755B8EF6693114AD631061065ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2E33D834D362CCDAFF82BFE7B390B05 /* Build configuration list for PBXNativeTarget "Pods-IFSFormsView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D334FAA1636E0634C3BAF978F8910193 /* Debug */,
+				BF4FA95058374D5ED822D64A079DA7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2490199A8042CC38AFAC9EDFEE52574 /* Build configuration list for PBXNativeTarget "Pods-IFSFormsView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F7BEB4DCF1755133AF73A2F091FF2C /* Debug */,
+				A61E4C37D99A17807516C8677F91C3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module IFSFormsView {
+  umbrella header "IFSFormsView-umbrella.h"
+
+  export *
+  module * { export * }
+}

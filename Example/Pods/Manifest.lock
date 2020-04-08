@@ -1,0 +1,16 @@
+PODS:
+  - IFSFormsView (0.1.0)
+
+DEPENDENCIES:
+  - IFSFormsView (from `../`)
+
+EXTERNAL SOURCES:
+  IFSFormsView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IFSFormsView: fc739dc754b10cfbc75810d4a43edc17afd9ce31
+
+PODFILE CHECKSUM: f08c6004574a12546e9ada394c40386601b52a65
+
+COCOAPODS: 1.8.4
