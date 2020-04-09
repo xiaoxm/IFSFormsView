@@ -22,7 +22,7 @@ pod 'IFSFormsView'
 
 ## Author
 
-786696937@qq.com, herui@ifensi.com
+herui, herui@ifensi.com
 
 ## License
 
